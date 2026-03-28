@@ -15,25 +15,28 @@ URL Input: Users provide a product URL, and the system extracts the relevant tex
 The system combines these features to give a final decision, risk score, and AI reasoning for the sustainability claims.
 
 🛠️ Features
-1️⃣ Text Input
+1️1. Text Input
 Input a product description.
 Detects sustainability-related buzzwords.
 Checks if the description contains strong evidence (e.g., certifications, measurable claims).
 Runs AI model classification to support claim verification.
 Provides final decision, confidence score, risk score, highlighted text, and reasoning.
-2️⃣ URL Input
+2. URL Input
 Enter a product page URL.
 Scrapes relevant text using BeautifulSoup, removing menus, footers, and non-content elements.
 Performs the same analysis pipeline as the text input mode.
 Provides content preview and analysis results.
+
 🔗 Additional Features
 Buzzword highlighting in analyzed text.
 Hybrid confidence scoring combining model predictions, evidence, and certification results.
 Greenwashing Risk Score (0–100 scale).
 Key extracted sentences for readability.
-Modern Streamlit UI with radio button input selection and clear results layout.
+
+
+
 🗂️ Project Structure
-ClaimSense/
+GreenwashingClaimSense/
 │
 ├─ app.py                  # Main Streamlit app
 ├─ scraper.py              # URL text extraction logic
@@ -59,6 +62,7 @@ beautifulsoup4
 pandas
 transformers
 torch
+
 🚀 How to Run
 Open terminal in the project folder.
 Run Streamlit app:
@@ -143,9 +147,5 @@ Scrollable product text preview
 
 Tip: During demo, you can compare Text vs URL input using the same product to show consistency and hybrid analysis effectiveness.
 
-📝 Optional Improvements
-Add multi-page UI: one for Text, one for URL.
-Include product images in the preview.
-Add downloadable PDF reports for analysis.
-Implement batch URL input for analyzing multiple products at once.
-Visualize buzzword frequency or risk score distribution.
+video link - https://drive.google.com/file/d/1ldFdPse78eyHQfD0YUa_6H--vNGIpQlT/view?usp=drivesdk
+
