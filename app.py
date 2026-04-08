@@ -10,8 +10,7 @@ st.set_page_config(page_title="Green-Truth Auditor", layout="wide")
 
 # 🌱 Title
 
-
-st.title("🌱 Green-Truth Auditor 1")
+st.title("🌱 ")
 st.markdown(
     "AI-powered Green Claim Verification System — Analyze sustainability claims of products and brands."
 )
