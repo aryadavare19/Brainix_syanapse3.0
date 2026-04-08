@@ -9,7 +9,9 @@ from reasoning import generate_reasoning
 st.set_page_config(page_title="Green-Truth Auditor", layout="wide")
 
 # 🌱 Title
-st.title("🌱 Green-Truth Auditor")
+
+
+st.title("🌱 Green-Truth Auditor 1")
 st.markdown(
     "AI-powered Green Claim Verification System — Analyze sustainability claims of products and brands."
 )
